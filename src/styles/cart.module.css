@@ -1,0 +1,133 @@
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainContainer > div {
+    margin: 15px;
+    width: 100%;
+}
+
+.header {
+    height: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffffff;
+    color: #00000000;
+    border-radius: 5px;
+}
+
+.header small, .cartDetail {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cartDetail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cartDetail > div {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.cartDetail button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: #2ecc71;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.cartDetail button:hover {
+    background-color: #27ae60;
+}
+
+.removeAll {
+    background-color: #e74c3c;
+}
+
+.purchaseAll {
+    background-color: #9b59b6;
+}
+
+.removeAll:hover {
+    background-color: #c0392b;
+}
+
+.purchaseAll:hover {
+    background-color: #8e44ad;
+}
+
+.imageContainer {
+    height: 70%;
+}
+
+.imageContainer img {
+    height: 100%;
+    width: 100%;
+}
+
+.itemInfo {
+    width: 100%;
+    height: 30%;
+}
+
+.itemInfo > div {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.namePrice {
+    height: 26%;
+    font-size: 1rem;
+}
+
+.priceQuant {
+    height: 37%;
+    display: flex;
+    justify-content: space-between;
+    color: #3498db;
+}
+
+.quantity {
+    color: #9b59b6;
+}
+
+.minus {
+    color: #e74c3c;
+}
+
+.plus {
+    color: #3498db;
+}
+
+.btnContainer {
+    height: 37%;
+}
+
+.removeBtn {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #e74c3c;
+    transition: background-color 0.3s, border 0.3s, color 0.3s, font-weight 0.3s;
+}
+
+.removeBtn:hover {
+    background-color: #c0392b;
+}
